@@ -29,7 +29,7 @@ async function getAllOrders(req, res) {
 
 async function showCreateOrderForm(req, res) {
   try {
-    const products = await Product.find().sort({ unitPrice: 1 });
+    const products = await Product.find().sort({ unitPrice: 1 }).lean();
 
     return res.render("createOrder", {
       title: "Create New Order",
