@@ -1,9 +1,18 @@
 {
+    "name": "phammy_shop",
+  "version": "1.0.0",
+  "description": "Online Shop Order Management System",
+  "main": "server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server.js"
+  },
   "dependencies": {
     "dotenv": "^17.4.2",
     "ejs": "^6.0.1",
     "express": "^5.2.1",
     "express-handlebars": "^9.0.1",
+    "mongodb": "^7.3.0",
     "mongoose": "^9.7.0"
   }
 }
