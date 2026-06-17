@@ -1,2 +1,8 @@
+# Dependencies
+node_modules/
+
+# Environment variables
 .env
-./nodemodules
+.env.local
+.env.development
+.env.production
